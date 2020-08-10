@@ -15,3 +15,6 @@ class FizzBuzzテストクラス:
 
     def _3を渡すと文字列Fizzを返す_test(self, fizzBuzz):
         assert "Fizz" == fizzBuzz.convert(3)
+
+    def _5を渡すと文字列Buzzを返す_test(self, fizzBuzz):
+        assert "Buzz" == fizzBuzz.convert(5)
