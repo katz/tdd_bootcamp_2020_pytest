@@ -9,9 +9,18 @@
     "88",
     "--ignore=E203,W503,W504"
   ],
+
   // フォーマッタの設定
   "python.formatting.provider": "black",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": false,
-  "python.pythonPath": "venv\\Scripts\\python.exe"
+  "python.pythonPath": "venv\\Scripts\\python.exe",
+
+  // テストランナーの設定
+  "python.testing.unittestEnabled": false,
+  "python.testing.nosetestsEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": [
+    "-c", "pytest.ini"
+  ],
 }
