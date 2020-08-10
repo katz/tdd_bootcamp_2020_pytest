@@ -11,9 +11,6 @@ class FizzBuzz数列と変換規則を扱うFizzBuzzクラス:
         def _1を渡すと文字列1を返す_test(self, fizzBuzz):
             assert "1" == fizzBuzz.convert(1)
 
-        def _2を渡すと文字列2を返す_test(self, fizzBuzz):
-            assert "2" == fizzBuzz.convert(2)
-
     class _3の倍数の時は数の代わりにFizzに変換する:
         def _3を渡すと文字列Fizzを返す_test(self, fizzBuzz):
             assert "Fizz" == fizzBuzz.convert(3)
