@@ -18,3 +18,7 @@ class FizzBuzz数列と変換規則を扱うFizzBuzzクラス:
     class _5の倍数の時は数の代わりにBuzzに変換する:
         def _5を渡すと文字列Buzzを返す_test(self, fizzBuzz):
             assert "Buzz" == fizzBuzz.convert(5)
+
+    class _3と5両方の倍数の時は数の代わりにFizzBuzzに変換する:
+        def _15を渡すと文字列FizzBuzzを返す_test(self, fizzBuzz):
+            assert "FizzBuzz" == fizzBuzz.convert(15)
